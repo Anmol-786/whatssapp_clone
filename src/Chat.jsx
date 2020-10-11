@@ -4,6 +4,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
+import MicIcon from '@material-ui/icons/Mic';
 import { Avatar, IconButton } from '@material-ui/core';
 
 const Chat = ()=>{
@@ -51,7 +52,16 @@ const Chat = ()=>{
                 </p>
             </div>
             <div className="chat_footer">
+                <IconButton>
                 <InsertEmoticonIcon/>
+                </IconButton>
+                <form>
+                    <input type="text" placeholder="Type a message"/>
+                    <button type="submit" >send</button>
+                </form>
+                <IconButton>
+                <MicIcon/>
+                </IconButton>
             </div>
         </div>
         </>
