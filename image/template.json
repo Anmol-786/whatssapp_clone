@@ -1,0 +1,16 @@
+{
+    "Account":{
+        "type":"Object",
+        "description":"This is accounts",
+        "properties":{
+            "Name":{
+                "type":"Single",
+        "description":"This is Name prop"
+            },
+            "Bank acc":{
+                "type":"Single",
+        "description":"This is Bank accounts prop"
+            }
+        }
+    }
+}
